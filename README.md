@@ -80,7 +80,7 @@ systemctl start vault
 systemctl enable vault
 ```
 - Após o serviço iniciar, podemos iniciar a configuração do Vault, primeiramente precisamos iniciar o vault com o comando vault init. Porém primeiramente precisamos exportar uma variável para o endereço do Vault.
-##### - OBS: As keys geradas pelo vault init, são as chaves para o unseal do vault, caso essas keys sejam perdidas, extraviadas os segredos serão perdidos.
+- ##### OBS: As keys geradas pelo vault init, são as chaves para o unseal do vault, caso essas keys sejam perdidas, extraviadas os segredos serão perdidos.
 ```shell
 export VAULT_ADDR=http://vault.example.com:8200
 vault init
