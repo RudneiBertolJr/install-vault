@@ -114,6 +114,7 @@ your vault will remain permanently sealed.
 ```shell
 vault unseal
 Key (will be hidden):
+
 Sealed: true
 Key Shares: 5
 Key Threshold: 3
@@ -122,6 +123,7 @@ Unseal Nonce: 15210a3b-0ebc-b7e7-3014-13f29a7a38b9
 
 vault unseal
 Key (will be hidden): 
+
 Sealed: true
 Key Shares: 5
 Key Threshold: 3
@@ -130,6 +132,7 @@ Unseal Nonce: 15210a3b-0ebc-b7e7-3014-13f29a7a38b9
 
 vault unseal
 Key (will be hidden): 
+
 Sealed: false
 Key Shares: 5
 Key Threshold: 3
@@ -141,6 +144,7 @@ Unseal Nonce:
 ```shell
 vault auth
 Token (will be hidden): 
+
 Successfully authenticated! You are now logged in.
 token: d0151df4-8a35-583f-7f74-2d4ec08485c5
 token_duration: 0
