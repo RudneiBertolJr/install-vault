@@ -137,3 +137,6 @@ token: d0151df4-8a35-583f-7f74-2d4ec08485c5
 token_duration: 0
 token_policies: [root]
 ```
+- #### Documentações Utilizadas.
+
+https://www.vaultproject.io/
