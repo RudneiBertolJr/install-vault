@@ -153,3 +153,4 @@ token_policies: [root]
 - #### Documentações Utilizadas.
 
 https://www.vaultproject.io/
+https://www.vaultproject.io/docs/install/index.html
